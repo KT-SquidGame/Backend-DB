@@ -25,14 +25,12 @@
 
 
 ## Tutorial
+해당 코드는 AI 오징어게임의 DB서버 코드입니다.
+핵심 기능은 Client 에서 필요한 데이터 호출, 데이터 저장 요청이 올경우 Rest API 통신으로 실행이 됩니다.
 
+<b> 실행 방법 </b>
 1. 코드 다운
-2. npm install 실행
-3. npm run start 실행
-4. 회원가입 또는 로그인 후 게임을 즐긴다.
-
-
-
+2. IDE에서 MainDbApplication 실행 (Inteliz IDEA 권고)
 
 ## Features
 
@@ -43,19 +41,17 @@
 	<h5>4. 랭킹 보기</h5>
 </p>
 
-
-
 ## System Structure
-
+<p align="center">
+    <img src="![Uploading AI 오징어게임 DB 설계.png…]()"/>
 
 
 
 ## Contributor
 
-Maintainer : 김수연, 김서정
+Maintainer : 김남협
 
-Contributor : 김남협, 김주환, 박수정, 유동헌, 윤혜정, 조민호, 전민준, 허나연
-
+Contributor : 김수연, 김서정, 김주환, 박수정, 유동헌, 윤혜정, 조민호, 전민준, 허나연
 
 
 ## License
