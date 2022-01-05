@@ -43,7 +43,7 @@
 
 ## System Structure
 <p align="center">
-    <img src="![Uploading AI 오징어게임 DB 설계.png…]()"/>
+    <img src="/Uploading AI 오징어게임 DB 설계.png"/>
 
 
 
