@@ -43,7 +43,7 @@
 
 ## System Structure
 <p align="center">
-    <img src="![AI 오징어게임 DB 설계](https://user-images.githubusercontent.com/53933920/148173808-229fb95d-a178-4994-a400-fe63c5cd9bfb.png")
+    <img src=![AI 오징어게임 DB 설계](https://user-images.githubusercontent.com/53933920/148173808-229fb95d-a178-4994-a400-fe63c5cd9bfb.png)
 >
 
 
