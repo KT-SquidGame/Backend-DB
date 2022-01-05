@@ -44,7 +44,49 @@
 ## System Structure
 ![AI 오징어게임 DB 설계](https://user-images.githubusercontent.com/53933920/148174102-99a813fa-4031-4d56-ae80-886e4a2f3554.png)
 
+### 소스코드 정리
 
+### API
+
+- DalgonamApiController : 달고나 게임과 관련된 데이터 정보의 흐름을 위한 ControlIer
+- MemberApiController: Member의 정보 흐름을 위한 Controller
+- MugungwhaApiController: 무궁화 게임과 관련된 데이터 정보의 흐름을 위한 Controller
+
+### Configuration
+
+- WebConfig: CORS(Cross-origin resource sharing) 문제를 해결하기 위한 환경설정
+
+### DTO
+
+- DalgonaPointDto: 달고나 점수를 반환하기 위한 DTO
+- DalgonaRankDto: 프론트에 달고나 랭킹 순위 반환을 위한 DTO
+- MemberIdDto: Member Id 조회를 위한 DTO
+- MemberLoginDto: 회원 가입 정보와 반환을 위한 DTO
+- MugungwhaPointDto: 무궁화 점수 반환을 위한 DTO
+- MugungwhaRankDtO: 무궁화 랭킹 순위 반환을 위한 DTO
+
+### Entity
+
+- DalgonaGame: 달고나 게임 객체
+- Member: 회원 객체
+- MugungwhaGame: 무궁화 게임 객체를
+
+### Repository
+
+- InitDB
+    - InitMugungwha: 테스트 케이스 반환을 위한 DB 초기화 설정
+- DalgonaQuery: 회원이 종료한 달고나 게임의 score를 저장하기 위한 DB Query
+- MemberQuery: 회원의 로그인 유무를 구분하기 위한 Query
+- MugungwhaQuery: 무궁화 게임 랭킹 순위를 조회하기 위한 Query
+- DalgonaRepository: DB에 달고나 게임의 정보를 다루기 위한 메소드 정보 파일
+- MemberRepository: DB에 회원의 정보를 다루기 위한 메소드 정보 파일
+- MugungwhaRepository: DB에 무궁화 게임의 정보를 다루기 위한 메소드 정보 파일
+
+### Service
+
+- DalgonaService: 달고나 게임의 기능의 정보를 구현한 집합
+- MemberService: 회원 기능의 정보를 구현한 집합
+- MugungwhaQuery: 무궁화 게임의 기능의 정보를 구현한 집합
 
 ## Contributor
 
